@@ -50,7 +50,7 @@ nav img{
 }
 
 .gallery{
-	margin: 10px;
+	margin: 30px;
 	border: 1px solid #C5A24E;
 	float: left;
 	width: 400px;
@@ -124,7 +124,7 @@ nav img{
 }
 
 .desc-search p{
-	padding: 20px;
+	padding: 30px;
 	font-size: 17px;
 	text-align: center;
 	font-weight: bold;
