@@ -103,9 +103,9 @@ nav img{
 }
 
 .gallery-search{
-	margin: 30px;
+	margin: 10px;
 	float: left;
-	width: 550px;
+	width: 500px;
 	flex-basis: 31%;
 	margin-bottom: 5%;
 }
