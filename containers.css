@@ -223,7 +223,7 @@
 }
 
 .container-search{
-	max-width: 1920px;
+	max-width: 2100px;
 	margin: auto;
 	background-color: gba(4,9,30,0.7);
 	overflow: auto;
