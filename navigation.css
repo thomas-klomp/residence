@@ -50,7 +50,7 @@ nav img{
 }
 
 .gallery{
-	margin: 30px;
+	margin: 20px;
 	border: 1px solid #C5A24E;
 	float: left;
 	width: 400px;
@@ -103,7 +103,7 @@ nav img{
 }
 
 .gallery-search{
-	margin: 30px;
+	margin: 20px;
 	float: left;
 	width: 550px;
 	flex-basis: 31%;
