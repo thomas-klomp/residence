@@ -1,0 +1,213 @@
+
+/*------- Navigation -----*/
+
+
+nav{
+	diplay:  flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img{
+	width: 300px;
+	float: left;
+}
+
+.nav-links{
+	flex: 1;
+	text-align: center;
+	padding-top:150px;
+}
+
+.nav-links ul li{
+	list-style: none;
+	display:  inline-block;
+	padding:  12px 40px;
+	position: relative;
+}
+
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 30px;
+	top: 30%;
+	left: 50%;
+}
+
+.nav-links ul li::after{
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #C5A24E ;
+	display: block;
+	margin:  auto;
+	transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+	width: 0%;
+}
+
+.gallery{
+	margin: 30px;
+	border: 1px solid #C5A24E;
+	float: left;
+	width: 400px;
+}
+
+.gallery img{
+	width: 100%;
+	height: 200px;
+}
+
+.desc{
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.localisation{
+	padding-top: 100px;
+	max-width: 1920px;
+	margin: auto;
+	background-color: gba(4,9,30,0.7);
+	overflow: auto;
+	float: right;
+	}
+
+.localisation img{
+	width: 500px;
+	padding-right: 100px;
+	}
+
+.description-villa{
+	max-width: 1920px;
+	margin: auto;
+	background-color: gba(4,9,30,0.7);
+	overflow: auto;
+}
+
+.localisation h1{
+	padding-left: 550px;
+	font-size: 50px;
+	text-decoration: underline #C5A24E;
+}
+
+.localisation p{
+	margin-top: 80px;
+	font-size: 20px;
+	float: right;
+	text-align: right;
+	margin-right:  100px;
+}
+
+.gallery-search{
+	margin: 30px;
+	float: left;
+	width: 550px;
+	flex-basis: 31%;
+	margin-bottom: 5%;
+}
+
+.gallery-search img{
+	width: 100%;
+}
+
+.desc-search h1{
+	padding: 0px;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline #C5A24E ;
+	color: black;
+}
+
+.desc-search p{
+	padding: 20px;
+	font-size: 17px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline #C5A24E
+}
+
+.gallery-destinations{
+	margin: 35px;
+	float: left;
+	width: 550px;
+	flex-basis: 31%;
+	margin-bottom: 5%;
+}
+
+.gallery-destinations img{
+	width: 100%;
+	border-radius: 30px;
+	border: 3px solid #C5A24E;
+}
+
+.gallery-destinations h1{
+	padding-bottom: 0px;
+	font-size: 45px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline #C5A24E ;
+	color: black;
+}
+
+.desc-destinations p{
+	padding-top: 400px;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline #C5A24E
+}
+
+.villa-owners-description img{
+	border-radius: 50px;
+}
+
+.villa-owners-description{
+	text-align: center;
+}
+
+.section-owners{
+	padding-bottom: 150px;
+	background-image: url(images/background-owners.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+
+.price{
+	color: black;
+	text-decoration: underline 1px #C5A24E;
+}
+
+.order-information {
+	text-align: center;
+}
+
+.order-information h1{
+	font-size: 50px;
+	color: black;
+	margin-top: 50px;
+	letter-spacing: 5px;
+}
+
+.order-information img{
+	width: 300px;
+}
+
+.payment-visa img{
+	width: 200px;
+	margin-top: 0px;
+}
+
+.order-information h2{
+	font-size: 25px;
+	color: black;
+	margin-top: 50px;
+	text-decoration:  underline 3px black;
+}
+

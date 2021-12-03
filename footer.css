@@ -1,0 +1,50 @@
+
+/*------- Footer -----*/
+
+
+.footer{
+	background-color: white;
+	background-image: url(images/background-footer.jpg);
+	padding-right: 40px;
+	padding-left: 40px;
+	padding: 70px;
+	font-size: 20px;
+	background-color: #272727;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 20px;
+}
+
+.footer2{
+	background-color: white;
+	padding: 30px;
+	font-size: 20px;
+	background-color: black;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 80px;
+}
+
+.footer2 p{
+	color: white;
+}
+
+.footer p{
+	color: white;
+	text-align: center;
+}
+
+.footer h1{
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+	cursor: pointer ;
+	text-align: right;
+	font-size: 20px;
+}
+
+.footer2 a{
+	float: right;
+}
